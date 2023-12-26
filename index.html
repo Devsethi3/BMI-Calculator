@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator | Javascript Project</title>
+
+    <!-- Link Custom CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">BMI Calculator</h1>
+        <div class="app">
+            <div class="user-input">
+                <p class="input-label">Height (in cm)</p>
+                <input type="text" id="height" class="input-box">
+                <span id="height-error"></span>
+            </div>
+            <div class="user-input">
+                <p class="input-label">Weight (in kg)</p>
+                <input type="text" id="weight" class="input-box">
+                <span id="weight-error"></span>
+            </div>
+            <button class="btn" id="btn">Calculate</button>
+            <div class="result-box">
+                <p class="result-text" id="result-text"></p>
+                <p class="result-output"></p>
+            </div>
+        </div>
+    </div>
+    <!-- Link Custom JS File -->
+    <script src="script.js"></script>
+</body>
+</html>

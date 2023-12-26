@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  color: #fff;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #090311;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.heading{
+    text-align: center;
+    background: linear-gradient(45deg, transparent, #3d1474, transparent);
+    width: 600px;
+    margin-top: 3rem;
+    padding: 15px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-block: 2rem;
+}
+.app{
+    border: 2px solid #3d1474;
+    width: 600px;
+    min-height: 65vh;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
+.user-input{
+    margin-block: 2rem;
+}
+.input-box{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #ffffff10;
+    padding: 14px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.input-label{
+    font-size: 1.2rem;
+    padding-block: .4rem;
+    opacity: .7;
+}
+.btn{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #3d1474;
+    padding: 14px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s ease;
+    border: 2px solid #3d1474;
+}
+.btn:hover{
+    background: none;
+}
+.result-box{
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 2px solid #3d1474;
+    text-align: center;
+}
+.result-text{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fbf8ff;
+}
+.result-output{
+    padding-block: .5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+@media screen and (max-width: 568px) {
+    .app{
+        border: none;
+        width: 100%;
+    }
+    .heading{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    .result-text{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #fbf8ff;
+    }
+}
